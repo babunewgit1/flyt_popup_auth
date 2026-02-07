@@ -1,3 +1,9 @@
+/*
+===========================================================
+    !user_auth.js file will connect globally for FLYT.com
+===========================================================
+*/
+
 /*==========================================================================
    Global Toast Notification
    ========================================================================== */
@@ -361,7 +367,7 @@ document.addEventListener("DOMContentLoaded", function () {
       event.preventDefault();
       const emailInput = loginForm.querySelector(".signupemail");
       const passwordInput = loginForm.querySelector("#password");
-      
+
       const emailVal = emailInput ? emailInput.value.trim() : "";
       const passwordVal = passwordInput ? passwordInput.value : "";
 
@@ -499,6 +505,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-
-
-
