@@ -1,0 +1,960 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="user_auth.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css"
+    />
+  </head>
+  <body>
+    <div class="fl_auth signup_form form_hide">
+      <section class="sp_header">
+        <div class="container">
+          <div class="sp_header_wrapper">
+            <a
+              href="/"
+              aria-current="page"
+              class="sp_header_logo w-inline-block w--current"
+              ><img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/68e907816762a4d6d948a02b_FLYT_logo.webp"
+                loading="lazy"
+                alt="logo"
+                class="nav_bar_logo_img"
+            /></a>
+            <div class="sp_return">
+              <img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b70a952351d56c97e12aa_close_icon.png"
+                loading="lazy"
+                alt="cross"
+                class="sp_return_cross"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="auth_bannar">
+        <img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp       687w
+          "
+          alt=""
+          class="auth_shape_one"
+        /><img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp       687w
+          "
+          alt=""
+          class="auth_shape_two"
+        />
+        <div class="auth_shape_overlay">
+          <img
+            src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp"
+            loading="lazy"
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcset="
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-500.webp   500w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-800.webp   800w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1080.webp 1080w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1600.webp 1600w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp        1920w
+            "
+            alt=""
+            class="auth_shape_ovarlayiimg"
+          />
+        </div>
+        <div class="container">
+          <div class="auth_bannar_wrapper">
+            <div class="ab_abnnar_wrapper text_left signup_cnt_block">
+              <div class="sp_bannar_left_wrapper mt0">
+                <div class="sp_bannar_left">
+                  <h1 class="hero_heading mb_inline">
+                    Hello There!<br />Register to get Started.
+                  </h1>
+                  <div class="global_para_div sp_para singup_para">
+                    <p class="whole_para">
+                      Register to create your account and get full access to our
+                      services and explore everything we have to offer. It’s
+                      quick, easy, and secure.
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/6981d1ccda00668ba1554bda_spring2.png"
+                  loading="lazy"
+                  alt=""
+                  class="spring"
+                />
+              </div>
+              <div class="sp_bannar_right">
+                <div class="auth_form-2">
+                  <div class="auth_heading">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b7a4adf5e319e6257aeeb_user_sign.png"
+                      alt="user oval"
+                      class="auth_user_pic"
+                    />
+                    <h3 class="auth_heading_h3-2">Create an account</h3>
+                    <p class="auth_heading_para para_height">
+                      Join us today and unlock all features.
+                    </p>
+                  </div>
+                  <div class="auth_custom_form">
+                    <div class="auth_form_custom_code w-embed">
+                      <form class="signup" action="">
+                        <div class="form_input">
+                          <input
+                            required=""
+                            class="signupname"
+                            type="text"
+                            placeholder="Enter your name"
+                            wfd-id="id12"
+                          />
+                        </div>
+                        <div class="form_input">
+                          <input
+                            required=""
+                            class="signupemail"
+                            type="email"
+                            placeholder="Enter your email"
+                            wfd-id="id13"
+                          />
+                        </div>
+                        <div class="form_input form_password">
+                          <input
+                            id="password"
+                            required=""
+                            type="password"
+                            placeholder="Enter your password"
+                            wfd-id="id15"
+                          />
+                          <button type="button" class="show_pass">
+                            <img
+                              style="width: 20px"
+                              src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b853f0e40bcd4969f65de_password.png"
+                              alt=""
+                            />
+                          </button>
+                        </div>
+                        <div class="form_input form_password">
+                          <input
+                            id="confirm"
+                            required=""
+                            type="password"
+                            placeholder="Confirm password"
+                            wfd-id="id16"
+                          />
+                          <button type="button" class="show_pass">
+                            <img
+                              style="width: 20px"
+                              src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b853f0e40bcd4969f65de_password.png"
+                              alt=""
+                            />
+                          </button>
+                        </div>
+                        <div class="form_submit">
+                          <button type="submit">Sign Up</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="auth_social">
+                    <div class="auth_social_heading">
+                      <div class="auth_social_bar"></div>
+                      <p class="auth_social_text">Or register with</p>
+                      <div class="auth_social_bar"></div>
+                    </div>
+                    <div class="auth_social_logo">
+                      <a href="#" class="auth_social_link w-inline-block"
+                        ><img
+                          loading="lazy"
+                          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b7f09399c1611687bfc94_sl1.png"
+                          alt="facebook"
+                          class="auth_social_icon" /></a
+                      ><a href="#" class="auth_social_link w-inline-block"
+                        ><img
+                          loading="lazy"
+                          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b7f17551a74ee4df726e8_sl2.png"
+                          alt="google"
+                          class="auth_social_icon" /></a
+                      ><a href="#" class="auth_social_link w-inline-block"
+                        ><img
+                          loading="lazy"
+                          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b7f221056d24360003cbe_sl3.png"
+                          alt="apple"
+                          class="auth_social_icon"
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="auth_login_para">
+                    <p class="auth_login_pera_text">Already have an account?</p>
+                    <p href="/login" class="login_link login_popup">
+                      Login Now
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="fl_auth login_form form_hide">
+      <section class="sp_header">
+        <div class="container">
+          <div class="sp_header_wrapper">
+            <a
+              href="/"
+              aria-current="page"
+              class="sp_header_logo w-inline-block w--current"
+              ><img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/68e907816762a4d6d948a02b_FLYT_logo.webp"
+                loading="lazy"
+                alt="logo"
+                class="nav_bar_logo_img"
+            /></a>
+            <div class="sp_return">
+              <img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b70a952351d56c97e12aa_close_icon.png"
+                loading="lazy"
+                alt="cross"
+                class="sp_return_cross"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="auth_bannar">
+        <img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp       687w
+          "
+          alt=""
+          class="auth_shape_one"
+        /><img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp       687w
+          "
+          alt=""
+          class="auth_shape_two auth_shapre_three"
+        />
+        <div class="auth_shape_overlay">
+          <img
+            src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp"
+            loading="lazy"
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcset="
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-500.webp   500w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-800.webp   800w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1080.webp 1080w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1600.webp 1600w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp        1920w
+            "
+            alt=""
+            class="auth_shape_ovarlayiimg"
+          />
+        </div>
+        <div class="container">
+          <div class="auth_bannar_wrapper">
+            <div class="ab_abnnar_wrapper text_left signup_cnt_block">
+              <div class="sp_bannar_left_wrapper mt0">
+                <div class="sp_bannar_left">
+                  <h1 class="hero_heading mb_inline">
+                    Welcome back!<br />Glad to see you again.
+                  </h1>
+                  <div class="global_para_div sp_para singup_para login_para">
+                    <p class="whole_para">
+                      We’re happy to have you again. Sign in securely to enjoy a
+                      personalized travel experience, saved routes, and seamless
+                      booking management.
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/6981d1ccda00668ba1554bda_spring2.png"
+                  loading="lazy"
+                  alt=""
+                  class="spring login_spring"
+                />
+              </div>
+              <div class="sp_bannar_right">
+                <div class="auth_form-2">
+                  <div class="auth_heading">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/6982c3e2ee6d8cd551faf834_lock.png"
+                      alt="Gray padlock icon indicating security or locked status."
+                      class="auth_user_pic"
+                    />
+                    <h3 class="auth_heading_h3-2">Login into your account</h3>
+                    <p class="auth_heading_para para_height">
+                      Log in to continue where you left off.
+                    </p>
+                  </div>
+                  <div class="auth_custom_form">
+                    <div class="auth_form_custom_code w-embed">
+                      <form class="login" action="">
+                        <div class="form_input">
+                          <input
+                            required=""
+                            class="signupemail"
+                            type="email"
+                            placeholder="Enter your email"
+                            wfd-id="id17"
+                          />
+                        </div>
+                        <div class="form_input form_password">
+                          <input
+                            id="password"
+                            required=""
+                            type="password"
+                            placeholder="Enter your password"
+                            wfd-id="id18"
+                          />
+                          <button type="button" class="show_pass">
+                            <img
+                              style="width: 20px"
+                              src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b853f0e40bcd4969f65de_password.png"
+                              alt=""
+                            />
+                          </button>
+                        </div>
+                        <div class="remember">
+                          <div class="remember_check">
+                            <input
+                              type="checkbox"
+                              id="remember_label"
+                              wfd-id="id19"
+                            />
+                            <label for="remember_label">Remember me</label>
+                          </div>
+                          <div class="form_input forget_pass_link">
+                            <button
+                              class="forget_password_button"
+                              type="button"
+                            >
+                              Forgot Password?
+                            </button>
+                          </div>
+                        </div>
+                        <div class="form_submit">
+                          <button type="submit">Login</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="auth_social">
+                    <div class="auth_social_heading">
+                      <div class="auth_social_bar"></div>
+                      <p class="auth_social_text">Or register with</p>
+                      <div class="auth_social_bar"></div>
+                    </div>
+                    <div class="auth_social_logo">
+                      <a href="#" class="auth_social_link w-inline-block"
+                        ><img
+                          loading="lazy"
+                          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b7f09399c1611687bfc94_sl1.png"
+                          alt="facebook"
+                          class="auth_social_icon" /></a
+                      ><a href="#" class="auth_social_link w-inline-block"
+                        ><img
+                          loading="lazy"
+                          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b7f17551a74ee4df726e8_sl2.png"
+                          alt="google"
+                          class="auth_social_icon" /></a
+                      ><a href="#" class="auth_social_link w-inline-block"
+                        ><img
+                          loading="lazy"
+                          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b7f221056d24360003cbe_sl3.png"
+                          alt="apple"
+                          class="auth_social_icon"
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="auth_login_para">
+                    <p class="auth_login_pera_text">Don't have an account?</p>
+                    <p href="/signup" class="login_link signup_popup">
+                      Register Now
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="fl_auth forget_pass_form form_hide">
+      <section class="sp_header">
+        <div class="container">
+          <div class="sp_header_wrapper">
+            <a
+              href="/"
+              aria-current="page"
+              class="sp_header_logo w-inline-block w--current"
+              ><img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/68e907816762a4d6d948a02b_FLYT_logo.webp"
+                loading="lazy"
+                alt="logo"
+                class="nav_bar_logo_img"
+            /></a>
+            <div class="sp_return">
+              <img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b70a952351d56c97e12aa_close_icon.png"
+                loading="lazy"
+                alt="cross"
+                class="sp_return_cross"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="auth_bannar">
+        <img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp       687w
+          "
+          alt=""
+          class="auth_shape_one"
+        /><img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp       687w
+          "
+          alt=""
+          class="auth_shape_two auth_shapre_three"
+        />
+        <div class="auth_shape_overlay">
+          <img
+            src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp"
+            loading="lazy"
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcset="
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-500.webp   500w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-800.webp   800w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1080.webp 1080w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1600.webp 1600w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp        1920w
+            "
+            alt=""
+            class="auth_shape_ovarlayiimg"
+          />
+        </div>
+        <div class="container">
+          <div class="auth_bannar_wrapper">
+            <div class="ab_abnnar_wrapper text_left signup_cnt_block">
+              <div class="sp_bannar_left_wrapper mt0">
+                <div class="sp_bannar_left">
+                  <h1 class="hero_heading mb_inline">
+                    Welcome back!<br />Glad to see you again.
+                  </h1>
+                  <div class="global_para_div sp_para singup_para login_para">
+                    <p class="whole_para">
+                      We’re happy to have you again. Sign in securely to enjoy a
+                      personalized travel experience, saved routes, and seamless
+                      booking management.
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/6981d1ccda00668ba1554bda_spring2.png"
+                  loading="lazy"
+                  alt=""
+                  class="spring login_spring"
+                />
+              </div>
+              <div class="sp_bannar_right mtx">
+                <div class="auth_form-2">
+                  <div class="auth_heading">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/6982c3e2ee6d8cd551faf834_lock.png"
+                      alt="Gray padlock icon indicating security or locked status."
+                      class="auth_user_pic"
+                    />
+                    <h3 class="auth_heading_h3-2">Forgot your password</h3>
+                    <p class="auth_heading_para para_height">
+                      Please enter the email address you'd like your password
+                      reset information sent to
+                    </p>
+                  </div>
+                  <div class="auth_custom_form forget_autt">
+                    <div class="auth_form_custom_code w-embed">
+                      <form class="forget_password" action="">
+                        <div class="form_input">
+                          <input
+                            required=""
+                            class="signupemail"
+                            type="email"
+                            placeholder="Enter your email"
+                            wfd-id="id20"
+                          />
+                        </div>
+                        <div class="form_submit">
+                          <button type="submit">Request reset link</button>
+                        </div>
+                        <div class="form_input forget_pass_link backtologin">
+                          <button class="backtologin" type="button">
+                            Back to Login
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="auth_login_para">
+                    <p class="auth_login_pera_text">Don't have an account?</p>
+                    <p href="/signup" class="login_link signup_popup">
+                      Register Now
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="fl_auth request_password_form form_hide">
+      <section class="sp_header">
+        <div class="container">
+          <div class="sp_header_wrapper">
+            <a
+              href="/"
+              aria-current="page"
+              class="sp_header_logo w-inline-block w--current"
+              ><img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/68e907816762a4d6d948a02b_FLYT_logo.webp"
+                loading="lazy"
+                alt="logo"
+                class="nav_bar_logo_img"
+            /></a>
+            <div class="sp_return">
+              <img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b70a952351d56c97e12aa_close_icon.png"
+                loading="lazy"
+                alt="cross"
+                class="sp_return_cross"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="auth_bannar">
+        <img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp       687w
+          "
+          alt=""
+          class="auth_shape_one"
+        /><img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp       687w
+          "
+          alt=""
+          class="auth_shape_two auth_shapre_three"
+        />
+        <div class="auth_shape_overlay">
+          <img
+            src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp"
+            loading="lazy"
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcset="
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-500.webp   500w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-800.webp   800w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1080.webp 1080w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1600.webp 1600w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp        1920w
+            "
+            alt=""
+            class="auth_shape_ovarlayiimg"
+          />
+        </div>
+        <div class="container">
+          <div class="auth_bannar_wrapper">
+            <div class="ab_abnnar_wrapper text_left signup_cnt_block">
+              <div class="sp_bannar_left_wrapper mt0">
+                <div class="sp_bannar_left">
+                  <h1 class="hero_heading mb_inline">
+                    Welcome back!<br />Glad to see you again.
+                  </h1>
+                  <div class="global_para_div sp_para singup_para login_para">
+                    <p class="whole_para">
+                      We’re happy to have you again. Sign in securely to enjoy a
+                      personalized travel experience, saved routes, and seamless
+                      booking management.
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/6981d1ccda00668ba1554bda_spring2.png"
+                  loading="lazy"
+                  alt=""
+                  class="spring login_spring"
+                />
+              </div>
+              <div class="sp_bannar_right mtx">
+                <div class="auth_form-2">
+                  <div class="auth_heading">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/6982c3e2ee6d8cd551faf834_lock.png"
+                      alt="Gray padlock icon indicating security or locked status."
+                      class="auth_user_pic"
+                    />
+                    <h3 class="auth_heading_h3-2">Requested Reset password</h3>
+                    <p class="auth_heading_para para_height">
+                      A request has been received to change the password for
+                      your account.
+                    </p>
+                    <div class="up_login">
+                      <div class="w-embed">
+                        <div class="form_submit">
+                          <button type="button" class="forget_password_again">
+                            reset Password
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="rrp_para">
+                      If you did not initiate this request, please contact us
+                      immediately at
+                      <a href="mailto:support@flyt.com" class="rrp_mail"
+                        >support@flyt.com</a
+                      >
+                    </p>
+                  </div>
+                  <div class="auth_login_para">
+                    <p class="auth_login_pera_text">Don't have an account?</p>
+                    <p href="/signup" class="login_link signup_popup">
+                      Register Now
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="fl_auth reset_password_form form_hide">
+      <section class="sp_header">
+        <div class="container">
+          <div class="sp_header_wrapper">
+            <a
+              href="/"
+              aria-current="page"
+              class="sp_header_logo w-inline-block w--current"
+              ><img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/68e907816762a4d6d948a02b_FLYT_logo.webp"
+                loading="lazy"
+                alt="logo"
+                class="nav_bar_logo_img"
+            /></a>
+            <div class="sp_return">
+              <img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b70a952351d56c97e12aa_close_icon.png"
+                loading="lazy"
+                alt="cross"
+                class="sp_return_cross"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="auth_bannar">
+        <img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp       687w
+          "
+          alt=""
+          class="auth_shape_one"
+        /><img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp       687w
+          "
+          alt=""
+          class="auth_shape_two auth_shapre_three"
+        />
+        <div class="auth_shape_overlay">
+          <img
+            src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp"
+            loading="lazy"
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcset="
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-500.webp   500w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-800.webp   800w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1080.webp 1080w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1600.webp 1600w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp        1920w
+            "
+            alt=""
+            class="auth_shape_ovarlayiimg"
+          />
+        </div>
+        <div class="container">
+          <div class="auth_bannar_wrapper">
+            <div class="ab_abnnar_wrapper text_left signup_cnt_block">
+              <div class="sp_bannar_left_wrapper mt0">
+                <div class="sp_bannar_left">
+                  <h1 class="hero_heading mb_inline">
+                    Welcome back!<br />Glad to see you again.
+                  </h1>
+                  <div class="global_para_div sp_para singup_para login_para">
+                    <p class="whole_para">
+                      We’re happy to have you again. Sign in securely to enjoy a
+                      personalized travel experience, saved routes, and seamless
+                      booking management.
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/6981d1ccda00668ba1554bda_spring2.png"
+                  loading="lazy"
+                  alt=""
+                  class="spring login_spring"
+                />
+              </div>
+              <div class="sp_bannar_right mtx">
+                <div class="auth_form-2">
+                  <div class="auth_heading">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/6982c3e2ee6d8cd551faf834_lock.png"
+                      alt="Gray padlock icon indicating security or locked status."
+                      class="auth_user_pic"
+                    />
+                    <h3 class="auth_heading_h3-2">Forgot your password</h3>
+                    <p class="auth_heading_para para_height">
+                      Please create a new password that you don't use on any
+                      other site.
+                    </p>
+                  </div>
+                  <div class="auth_custom_form forget_autt">
+                    <div class="auth_form_custom_code w-embed">
+                      <form class="reset_password" action="">
+                        <div class="form_input form_password">
+                          <input
+                            id="password"
+                            required=""
+                            type="password"
+                            placeholder="Enter your password"
+                            wfd-id="id21"
+                          />
+                          <button type="button" class="show_pass">
+                            <img
+                              style="width: 20px"
+                              src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b853f0e40bcd4969f65de_password.png"
+                              alt=""
+                            />
+                          </button>
+                        </div>
+                        <div class="form_input form_password">
+                          <input
+                            id="confirm"
+                            required=""
+                            type="password"
+                            placeholder="Confirm password"
+                            wfd-id="id22"
+                          />
+                          <button type="button" class="show_pass">
+                            <img
+                              style="width: 20px"
+                              src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b853f0e40bcd4969f65de_password.png"
+                              alt=""
+                            />
+                          </button>
+                        </div>
+                        <div class="form_submit">
+                          <button type="submit">Change Password</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="auth_login_para">
+                    <p class="auth_login_pera_text">Don't have an account?</p>
+                    <p href="/signup" class="login_link signup_popup">
+                      Register Now
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="fl_auth password_updated_form form_hide">
+      <section class="sp_header">
+        <div class="container">
+          <div class="sp_header_wrapper">
+            <a
+              href="/"
+              aria-current="page"
+              class="sp_header_logo w-inline-block w--current"
+              ><img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/68e907816762a4d6d948a02b_FLYT_logo.webp"
+                loading="lazy"
+                alt="logo"
+                class="nav_bar_logo_img"
+            /></a>
+            <div class="sp_return">
+              <img
+                src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b70a952351d56c97e12aa_close_icon.png"
+                loading="lazy"
+                alt="cross"
+                class="sp_return_cross"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="auth_bannar">
+        <img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4b47e07a7b269dc0a9df_block_top.webp       687w
+          "
+          alt=""
+          class="auth_shape_one"
+        /><img
+          src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp"
+          loading="lazy"
+          sizes="(max-width: 687px) 100vw, 687px"
+          srcset="
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full-p-500.webp 500w,
+            https://cdn.prod.website-files.com/673728493d38fb595b0df373/690b5a8f644385ab3c492bf8_block_bottom_full.webp       687w
+          "
+          alt=""
+          class="auth_shape_two auth_shapre_three"
+        />
+        <div class="auth_shape_overlay">
+          <img
+            src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp"
+            loading="lazy"
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcset="
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-500.webp   500w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-800.webp   800w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1080.webp 1080w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay-p-1600.webp 1600w,
+              https://cdn.prod.website-files.com/673728493d38fb595b0df373/690a4bacc33610b5bcfb0966_overlay.webp        1920w
+            "
+            alt=""
+            class="auth_shape_ovarlayiimg"
+          />
+        </div>
+        <div class="container">
+          <div class="auth_bannar_wrapper">
+            <div class="ab_abnnar_wrapper text_left signup_cnt_block">
+              <div class="sp_bannar_left_wrapper mt0">
+                <div class="sp_bannar_left">
+                  <h1 class="hero_heading mb_inline">
+                    Welcome back!<br />Glad to see you again.
+                  </h1>
+                  <div class="global_para_div sp_para singup_para login_para">
+                    <p class="whole_para">
+                      We’re happy to have you again. Sign in securely to enjoy a
+                      personalized travel experience, saved routes, and seamless
+                      booking management.
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/6981d1ccda00668ba1554bda_spring2.png"
+                  loading="lazy"
+                  alt=""
+                  class="spring login_spring"
+                />
+              </div>
+              <div class="sp_bannar_right mtx">
+                <div class="auth_form-2">
+                  <div class="auth_heading">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.prod.website-files.com/673728493d38fb595b0df373/6982d74a8bbfe1201c770a84_check_pass.png"
+                      alt="check sign"
+                      class="auth_user_pic"
+                    />
+                    <h3 class="auth_heading_h3-2">password Updated</h3>
+                    <p class="auth_heading_para para_height">
+                      Your password has been updated successfully. You can now
+                      sign in with your new password.
+                    </p>
+                  </div>
+                  <div class="up_login">
+                    <div class="w-embed">
+                      <div class="form_submit">
+                        <button class="login_again" type="button">Login</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="auth_login_para">
+                    <p class="auth_login_pera_text">Don't have an account?</p>
+                    <p href="/signup" class="login_link signup_popup">
+                      Register Now
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+    <script src="user_auth.js"></script>
+  </body>
+</html>

@@ -1,0 +1,293 @@
+/*
+========================================
+    !signup
+========================================
+*/
+
+.form_input input {
+  display: block;
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #68727f;
+  height: 55px;
+  color: #04142a;
+  padding: 20px;
+  padding-right: 50px;
+  margin-bottom: 1rem;
+}
+
+.form_input input::placeholder {
+  color: #68727f;
+  opacity: 1;
+}
+
+.form_input input.signupname {
+  background-image: url("https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b983fd26b1dda089e9bdb_userinput.png");
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position: top 13px right 15px;
+}
+
+.form_input input.signupemail {
+  background-image: url("https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b985c352ee0f70f1d8800_message_input.png");
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position: top 18px right 15px;
+}
+
+.form_password {
+  position: relative;
+}
+
+.show_pass {
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: calc(100% - 26px);
+  transform: translate(-50%, -50%);
+  width: 26px;
+  transition: all 0.3s ease;
+}
+
+.show_pass:hover {
+  opacity: 0.7;
+}
+
+.show_pass img {
+  display: inline-block;
+  width: 100% !important;
+}
+
+.form_submit {
+  text-align: center;
+}
+
+.form_submit button {
+  display: inline-block;
+  background-color: #04142a;
+  border-radius: 8px;
+  height: 55px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family:
+    Geom Graphic,
+    Arial,
+    sans-serif;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 40px;
+  padding-right: 120px;
+  background-image: url("https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b9afae6c8067536ed6549_f_submit_btn.png");
+  background-size: 22px;
+  background-position: top 17px right 25px;
+  position: relative;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+
+.form_submit button:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 75px;
+}
+
+.form_submit button:hover {
+  opacity: 0.7;
+}
+
+.auth_social_link:hover {
+  background-color: #68727f;
+}
+
+.auth_social_link:hover img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
+    hue-rotate(356deg) brightness(102%) contrast(102%);
+}
+
+.auth_social {
+  display: none;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.remember_check {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.remember_check input {
+  accent-color: #04142a;
+  cursor: pointer;
+}
+
+.remember_check label {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 17px;
+  color: #04142a;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.form_input.forget_pass_link a {
+  display: inline-block;
+  font-size: 17px;
+  color: #04142a;
+  transition: all 0.2s ease;
+}
+
+.form_input.forget_pass_link a:hover {
+  opacity: 0.7;
+}
+
+.form_input.forget_pass_link {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.form_input.forget_pass_link a {
+  display: inline-block;
+  font-size: 17px;
+  color: #04142a;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+}
+
+.form_input.forget_pass_link a:hover {
+  opacity: 0.7;
+}
+
+.form_submit a {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: #04142a;
+  border-radius: 8px;
+  height: 55px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family:
+    Geom Graphic,
+    Arial,
+    sans-serif;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 40px;
+  padding-right: 120px;
+  background-image: url("https://cdn.prod.website-files.com/673728493d38fb595b0df373/697b9afae6c8067536ed6549_f_submit_btn.png");
+  background-size: 22px;
+  background-position: top 17px right 25px;
+  position: relative;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+
+.form_submit a:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 75px;
+}
+
+.form_submit a:hover {
+  opacity: 0.7;
+}
+
+.auth_social_link:hover {
+  background-color: #68727f;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.forget_password_button,
+.backtologin {
+  background: none;
+  padding: 0;
+  transition: all 0.2s ease;
+}
+
+.forget_password_button:hover,
+.backtologin:hover {
+  opacity: 0.7;
+}
+
+.remember .forget_pass_link {
+  margin-top: 0;
+}
+
+.forget_password_again,
+.login_again {
+  margin-top: 1rem;
+}
+
+/* code for toast notification */
+.notyf {
+  z-index: 99999;
+}
+
+.notyf__toast {
+  max-width: 400px !important;
+  height: auto !important;
+  width: 100% !important;
+}
+
+.notyf__message {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  line-height: 1.5 !important;
+  font-size: 14px !important;
+  display: block !important;
+  width: 100%;
+}
+
+.notyf__wrapper {
+  padding: 15px 0px !important;
+  align-items: center !important;
+}
+.notyf__ripple {
+  width: 100% !important;
+  height: 100% !important;
+  transform: none !important;
+  border-radius: inherit !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  animation: none !important;
+  opacity: 1 !important;
+}
+
+@media screen and (max-width: 991px) {
+  .form_input input {
+    height: 48px;
+    background-size: 17px !important;
+  }
+
+  .show_pass {
+    width: 22px;
+  }
+}
