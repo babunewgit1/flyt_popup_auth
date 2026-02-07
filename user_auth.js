@@ -269,7 +269,6 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
           }
 
-          /*
           if (
             verifyData.response.email_status !== "DELIVERABLE" ||
             verifyData.response.disposable_email === true
@@ -277,7 +276,6 @@ document.addEventListener("DOMContentLoaded", function () {
             window.toast.error("Please enter a valid email");
             return;
           }
-          */
         }
 
         // Perform Signup
