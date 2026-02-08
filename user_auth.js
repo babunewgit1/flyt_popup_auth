@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
      ========================================================================== */
   // Open Login Form
   const loginTriggers = document.querySelectorAll(
-    ".desktop_login, .sm_login, .login_popup, .backtologin, .login_again",
+    ".desktop_login, .sm_login, .login_popup, .backtologin, .login_again, .open_login",
   );
   loginTriggers.forEach((btn) => {
     btn.addEventListener("click", (e) => {
